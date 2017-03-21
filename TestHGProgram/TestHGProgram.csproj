@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5C9F26C7-6CE7-47B8-A975-21854C5DC479}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TestHGProgram</RootNamespace>
+    <AssemblyName>TestHGProgram</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HomeGenie">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\HomeGenie.exe</HintPath>
+    </Reference>
+    <Reference Include="Innovative.Geometry">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\lib\shared\Innovative.Geometry.dll</HintPath>
+    </Reference>
+    <Reference Include="Innovative.SolarCalculator">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\lib\shared\Innovative.SolarCalculator.dll</HintPath>
+    </Reference>
+    <Reference Include="M2Mqtt.Net">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\lib\shared\M2Mqtt.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="MIG">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\MIG.dll</HintPath>
+    </Reference>
+    <Reference Include="NetClientLib">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\NetClientLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Raspberry.IO">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="Raspberry.IO.Components">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.Components.dll</HintPath>
+    </Reference>
+    <Reference Include="Raspberry.IO.GeneralPurpose">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.GeneralPurpose.dll</HintPath>
+    </Reference>
+    <Reference Include="Raspberry.IO.InterIntegratedCircuit">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.InterIntegratedCircuit.dll</HintPath>
+    </Reference>
+    <Reference Include="Raspberry.IO.Interop">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Raspberry.IO.SerialPeripheralInterface">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.SerialPeripheralInterface.dll</HintPath>
+    </Reference>
+    <Reference Include="Raspberry.System">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.System.dll</HintPath>
+    </Reference>
+    <Reference Include="SerialPortLib">
+      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\SerialPortLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Class1.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
