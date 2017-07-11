@@ -45,8 +45,8 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
 using HomeGenie;
-using HomeGenie.Service;
-using HomeGenie.Service.Logging;
+//using HomeGenie.Service;
+//using HomeGenie.Service.Logging;
 using HomeGenie.Automation;
 using HomeGenie.Data;
 using MIG;

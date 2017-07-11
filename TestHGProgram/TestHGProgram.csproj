@@ -43,10 +43,10 @@
       <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\lib\shared\M2Mqtt.Net.dll</HintPath>
     </Reference>
     <Reference Include="MIG">
-      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\MIG.dll</HintPath>
+      <HintPath>..\..\mig-service-dotnet\MIG\bin\Debug\MIG.dll</HintPath>
     </Reference>
     <Reference Include="NetClientLib">
-      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\NetClientLib.dll</HintPath>
+      <HintPath>..\..\HomeGenie\HomeGenie\bin\Debug\NetClientLib.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
@@ -59,19 +59,19 @@
       <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.dll</HintPath>
     </Reference>
     <Reference Include="Raspberry.IO.Components">
-      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.Components.dll</HintPath>
+      <HintPath>..\..\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.Components.dll</HintPath>
     </Reference>
     <Reference Include="Raspberry.IO.GeneralPurpose">
       <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.GeneralPurpose.dll</HintPath>
     </Reference>
     <Reference Include="Raspberry.IO.InterIntegratedCircuit">
-      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.InterIntegratedCircuit.dll</HintPath>
+      <HintPath>..\..\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.InterIntegratedCircuit.dll</HintPath>
     </Reference>
     <Reference Include="Raspberry.IO.Interop">
       <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.Interop.dll</HintPath>
     </Reference>
     <Reference Include="Raspberry.IO.SerialPeripheralInterface">
-      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.SerialPeripheralInterface.dll</HintPath>
+      <HintPath>..\..\HomeGenie\HomeGenie\bin\Debug\Raspberry.IO.SerialPeripheralInterface.dll</HintPath>
     </Reference>
     <Reference Include="Raspberry.System">
       <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\Raspberry.System.dll</HintPath>
