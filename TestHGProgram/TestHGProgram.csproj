@@ -31,7 +31,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HomeGenie">
-      <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\HomeGenie.exe</HintPath>
+      <HintPath>..\..\HomeGenie-BE\HomeGenie\bin\Debug\HomeGenie.exe</HintPath>
     </Reference>
     <Reference Include="Innovative.Geometry">
       <HintPath>..\..\..\..\..\Source\Repos\HomeGenie\HomeGenie\bin\Debug\lib\shared\Innovative.Geometry.dll</HintPath>
